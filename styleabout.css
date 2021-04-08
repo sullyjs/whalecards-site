@@ -277,6 +277,11 @@ header .logo
 
 @media (max-width: 991px)
 {
+
+	body{
+		overflow-x: hidden;
+	}
+
   .showcase,
   .showcase header
   {
@@ -290,6 +295,8 @@ header .logo
   {
     font-size: 2em;
   }
+
+
 }
 
 .typewriter {
