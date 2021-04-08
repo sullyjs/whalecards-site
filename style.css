@@ -54,32 +54,35 @@ ul.nav li.current a {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	/* Styles */
-	.header {
-		position: relative;
-		top: 0;
+@media (max-width: 858px) {
+	ul {
+		position: fixed;
 		width: 100%;
-		padding: 40px 100px;
-		z-index: 1000;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
 	}
-}
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-	/* Styles */
-	.header {
-		position: relative;
-		top: 0;
-		width: 100%;
-		padding: 40px 100px;
-		z-index: 1000;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	nav ul li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+
+		nav ul li a {
+			font-size: 20px;
+		}
+
+	a:hover, a.active {
+		background: none;
+		color: #0082e6;
+	}
+
+	#check:checked ~ ul {
+		left: 0;
 	}
 }
 
@@ -100,6 +103,17 @@ header .logo
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media (max-width: 952px) {
+	header .logo {
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	nav ul li a {
+		font-size: 16px;
+	}
 }
 
 .toggle
