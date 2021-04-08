@@ -342,6 +342,37 @@ font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Styles */
+	.container {
+		display: flexible;
+		grid-template-columns: 300px 300px 300px;
+		grid-gap: 50px;
+		justify-content: center;
+		align-items: center;
+		background-color: #001721;
+		width: 100%;
+		font-family: 'Poppins', sans-serif;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	/* Styles */
+	.container {
+		display: flexible;
+		grid-template-columns: 300px 300px 300px;
+		grid-gap: 50px;
+		justify-content: center;
+		align-items: center;
+		background-color: #001721;
+		width: 100%;
+		font-family: 'Poppins', sans-serif;
+	}
+}
+
+
 .card {
   background-color: #001721;
   height: 37rem;
