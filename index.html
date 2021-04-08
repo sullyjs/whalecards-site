@@ -1,0 +1,59 @@
+ <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WhaleCards</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+<script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">WhaleCards</h2>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roadmap.html">RoadMap</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="#">PancakeSwap</a></li>
+        <li><a href="#">Opensea</a></li>
+      </ul>
+    </header>
+    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2 class="typewriter">NEW WHALECARD NFTS!</h2> 
+      <h3>Available on Opensea!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="#">Buy Token</a>           <a href="#">Buy NFTs</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/tzJ6Yj0/1200px-Medium-logo-Monogram-svg.png" height="41px" width="41px"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  </body>
