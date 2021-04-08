@@ -351,6 +351,7 @@ font-family: 'Poppins', sans-serif;
 		-webkit-column-width: 150px;
 		-moz-column-width: 150px;
 		column-width: 150px;
+		width: 25%;
 	}
 }
 
@@ -366,6 +367,7 @@ font-family: 'Poppins', sans-serif;
 		-webkit-column-width: 150px;
 		-moz-column-width: 150px;
 		column-width: 150px;
+		width: 25%;
 	}
 }
 
