@@ -348,7 +348,9 @@ font-family: 'Poppins', sans-serif;
 	.container {
 		background-color: #001721;
 		font-family: 'Poppins', sans-serif;
-		grid-auto-columns: auto;
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
+		column-width: 150px;
 	}
 }
 
@@ -361,6 +363,9 @@ font-family: 'Poppins', sans-serif;
 		width: 100%;
 		font-family: 'Poppins', sans-serif;
 		grid-auto-columns: auto;
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
+		column-width: 150px;
 	}
 }
 

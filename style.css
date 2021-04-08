@@ -7,8 +7,28 @@
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   overflow-y: hidden;
-  
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Styles */
+	.body {
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
+		column-width: 150px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	/* Styles */
+	.body {
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
+		column-width: 150px;
+	}
+}
+
 ul.nav {
 	margin:0;
 	padding:0;
