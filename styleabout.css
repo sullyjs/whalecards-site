@@ -346,7 +346,6 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	/* Styles */
 	.container {
-		grid-gap: 50px;
 		background-color: #001721;
 		font-family: 'Poppins', sans-serif;
 		grid-auto-columns: auto;
