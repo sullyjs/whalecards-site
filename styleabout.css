@@ -332,7 +332,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container {
-  display:grid;
+  /*display: grid;*/
   grid-template-columns: 300px 300px 300px;
   grid-gap: 50px;
   justify-content: center;
@@ -342,9 +342,9 @@ font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	/* Styles */
+	/* Styles 
 	.container {
 		background-color: #001721;
 		font-family: 'Poppins', sans-serif;
@@ -355,9 +355,9 @@ font-family: 'Poppins', sans-serif;
 	}
 }
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- 
 @media only screen and (max-width : 320px) {
-	/* Styles */
+	/* Styles 
 	.container {
 		grid-gap: 50px;
 		background-color: #001721;
@@ -369,7 +369,7 @@ font-family: 'Poppins', sans-serif;
 		column-width: 150px;
 		width: 25%;
 	}
-}
+} */
 
 
 .card {

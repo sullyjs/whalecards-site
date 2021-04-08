@@ -84,22 +84,6 @@ ul.nav li.current a {
 	#check:checked ~ ul {
 		left: 0;
 	}
-
-	.text h2 {
-		font-size: 13px;
-		width: 25%;
-	}
-	.text h3 {
-		font-size: 10px;
-	}
-	.typewriter {
-		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: .15em solid rgb(118, 209, 201); /* The typwriter cursor */
-		*white-space: nowrap; /* Keeps the content on a single line */
-		/* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-		letter-spacing: .15em; /* Adjust as needed */
-		animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-	}
 }
 
 header
