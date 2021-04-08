@@ -332,7 +332,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container {
-	display:grid;
+  display:grid;
   grid-template-columns: 300px 300px 300px;
   grid-gap: 50px;
   justify-content: center;
@@ -348,10 +348,7 @@ font-family: 'Poppins', sans-serif;
 	.container {
 		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
-		justify-content: center;
-		align-items: center;
 		background-color: #001721;
-		width: 100%;
 		font-family: 'Poppins', sans-serif;
 	}
 }
@@ -362,8 +359,6 @@ font-family: 'Poppins', sans-serif;
 	.container {
 		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
-		justify-content: center;
-		align-items: center;
 		background-color: #001721;
 		width: 100%;
 		font-family: 'Poppins', sans-serif;
