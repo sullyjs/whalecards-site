@@ -18,7 +18,7 @@ ul.nav {
 	font-size:16px;
 }
 ul.nav li {
-	border-right:1px solid #6de2cb; /* you can change the border color matching to your background color */
+	border-right:4px solid #6de2cb; /* you can change the border color matching to your background color */
 	float:left;
 }
 ul.nav a {
@@ -31,6 +31,36 @@ ul.nav a:hover,
 ul.nav li.current a {
 	background:#ffffff;
   color:rgb(118, 209, 201);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Styles */
+	.header {
+		position: relative;
+		top: 0;
+		width: 100%;
+		padding: 40px 100px;
+		z-index: 1000;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	/* Styles */
+	.header {
+		position: relative;
+		top: 0;
+		width: 100%;
+		padding: 40px 100px;
+		z-index: 1000;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 header
@@ -51,6 +81,7 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .toggle
 {
   position: relative;
