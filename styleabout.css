@@ -346,10 +346,10 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	/* Styles */
 	.container {
-		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
 		background-color: #001721;
 		font-family: 'Poppins', sans-serif;
+		grid-auto-columns: auto;
 	}
 }
 
@@ -357,11 +357,11 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (max-width : 320px) {
 	/* Styles */
 	.container {
-		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
 		background-color: #001721;
 		width: 100%;
 		font-family: 'Poppins', sans-serif;
+		grid-auto-columns: auto;
 	}
 }
 
