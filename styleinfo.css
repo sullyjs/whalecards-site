@@ -19,7 +19,18 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 858px) {
 
+	.hattext {
+		font-size: 40px;
+	}
+
+	.topnav {
+		display: none;
+	}
+
+}
 ul.nav {
 	margin:0;
 	padding:0;
@@ -94,6 +105,7 @@ header .logo
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: bold;
 }
 .toggle
 {
@@ -724,6 +736,18 @@ h1.hero:after {
   width: 23%;
   margin: 0 1%;
 }
+
+.col.four p{
+	color: #aaa;
+}
+
+.col.three p {
+		color: #aaa;
+	}
+
+	.col.three h1 {
+		font-weight: bold;
+	}
 
 .col.three {
   width: 31.3%;

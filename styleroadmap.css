@@ -10,6 +10,31 @@
   overflow-x: hidden;
   
 }
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 858px) {
+	.header{
+		opacity: 0;
+	}
+
+	ul.nav li {
+		border-right: 1px solid #6de2cb; /* you can change the border color matching to your background color */
+	}
+
+	.hattext {
+		font-size:40px;
+	}
+
+	.topnav{
+		display: none;
+	}
+}
+
 ul.nav {
 	margin:0;
 	padding:0;
@@ -281,12 +306,13 @@ font-family: 'Poppins', sans-serif;
 .timeline-item {
   padding: 3em 2em 2em;
   position: relative;
-  color: rgba(rgb(255, 255, 255), .7);
+  color: rgb(118, 209, 201);
   border-left: 2px solid rgb(118, 209, 201);
 }
   
   .containertime p {
     font-size: 1rem;
+	color: #aaa;
   }
   
   .timeline-item:before {
