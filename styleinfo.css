@@ -838,16 +838,33 @@ h1.hero:after {
 }
 
 .col .imgholder {
-  height: 350px;
-  width: 100%;
-  background-image: url("https://i.ibb.co/S7Npxn8/59453-25105buh.gif");
-  background-size: cover;
-  transition: background 0.3s linear;
-  background-repeat: no-repeat;
+	height: 350px;
+	width: 100%;
+	background-image: url("https://i.ibb.co/S7Npxn8/59453-25105buh.gif");
+	background-size: cover;
+	transition: background 0.3s linear;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
 }
 
-.col.bg {
-  background: #FFF;
+.col .imgholder1 {
+	height: 350px;
+	width: 100%;
+	background-image: url("https://i.ibb.co/wRn2TjJ/59453-25105bjb.gif");
+	background-size: cover;
+	transition: background 0.3s linear;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
+}
+
+.col .imgholder2 {
+	height: 350px;
+	width: 100%;
+	background-image: url("https://i.ibb.co/4ZfYcY3/59453-25105vuh.gif");
+	background-size: cover;
+	transition: background 0.3s linear;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
 }
 
 .col.pointer {
@@ -856,6 +873,14 @@ h1.hero:after {
 
 .col.bg:hover .imgholder {
   opacity:0.7;
+}
+
+.col.bg:hover .imgholder1 {
+	opacity: 0.7;
+}
+
+.col.bg:hover .imgholder2 {
+	opacity: 0.7;
 }
 
 .col span.feature {
