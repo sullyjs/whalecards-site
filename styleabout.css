@@ -332,7 +332,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container {
-  display: flex;
+	display:grid;
   grid-template-columns: 300px 300px 300px;
   grid-gap: 50px;
   justify-content: center;
@@ -346,7 +346,6 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	/* Styles */
 	.container {
-		display: flex;
 		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
 		justify-content: center;
@@ -361,7 +360,6 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (max-width : 320px) {
 	/* Styles */
 	.container {
-		display: flex;
 		grid-template-columns: 300px 300px 300px;
 		grid-gap: 50px;
 		justify-content: center;
